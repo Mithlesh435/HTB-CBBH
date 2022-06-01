@@ -34,6 +34,39 @@ URL(Uniform Resource Location) -
           
         [ Fragment ] | Fragments are processed by the browsers on the client-side to locate sections within the primary resource (e.g. a    |
                      | header or section on the page).                                                                                      |
+                     
+                     
+Hypertext Transfer Protocol Secure (HTTPS) - 
+  * We discussed how HTTP requests are sent and processed. However, one of the significant drawbacks of HTTP is that all data is transferred 
+    in clear-text. This means that anyone between the source and destination can perform a Man-in-the-middle (MiTM) attack to view the 
+    transferred data.
+  * To counter this issue, the HTTPS (HTTP Secure) protocol was created, in which all communications are transferred in an encrypted format, 
+    so even if a third party does intercept the request, they would not be able to extract the data out of it. 
+    
+    
+    
+HTTPS Flow - 
+
+
+                                    
+[ User ] ----------------[ Browser {http://github.com} ]
+                                        |
+                                        |
+                                        |
+                                        |
+                                        |             http request to github.com
+                                        |_____________________________________________________
+                                        |                  GET / HTTP / 1.1
+                                        |___________________________________________________
+                                        |
+                                        |_________________________________________________
+                                        |
+                                        |_________________________________________________
+                                        |
+                                        |__________________________________________________
+                                        |
+                                        |________________________________________________
+                                     
         
                  
                     
