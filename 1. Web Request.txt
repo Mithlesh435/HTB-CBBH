@@ -43,29 +43,31 @@ Hypertext Transfer Protocol Secure (HTTPS) -
   * To counter this issue, the HTTPS (HTTP Secure) protocol was created, in which all communications are transferred in an encrypted format, 
     so even if a third party does intercept the request, they would not be able to extract the data out of it. 
     
-    
-    
+  
 HTTPS Flow - 
-
-
-                                    
-[ User ] ----------------[ Browser {http://github.com} ]
-                                        |
-                                        |
-                                        |
-                                        |
-                                        |             http request to github.com
-                                        |_____________________________________________________
-                                        |                  GET / HTTP / 1.1
-                                        |___________________________________________________
-                                        |
-                                        |_________________________________________________
-                                        |
-                                        |_________________________________________________
-                                        |
-                                        |__________________________________________________
-                                        |
-                                        |________________________________________________
+               
+[ User ] -------->-------[ Browser { http://github.com } ]                                       [ Server ]
+                                        |                                                             |
+                                        |                                                             |
+                                        |---------------[ HTTP request to github.com:80]------------->|
+                                        |                       GET / HTTP / 1.1                      |
+                                        |                                                             |
+                                        |<-----------[ Redirection to HTTPS "github.com" ]------------|
+                                        |             HTTP / 1.1 / 301 / Moved Permanently            |
+                                        |                                                             |
+                                        |---------------[ connect to github.com:443 ]---------------->|
+                                        |                       Client hello                          |
+                                        |                                                             |
+                                        |<----------------------[ Server hello ]----------------------|
+                                        |                    Server key exchange                      |
+                                        |                                                             |
+                                        |-------------------[ Client Key exchange ]------------------>|
+                                        |                     Encrypted Handshake                     |
+                                        |                                                             |
+                                        |<------------------[ Encrypted Handshake ]-------------------|
+                                        |                           Finish                            |
+                                        |                                                             |
+                                        |<<--------------[ Encrypted HTTP Connection ]-------------->>|
                                      
         
                  
