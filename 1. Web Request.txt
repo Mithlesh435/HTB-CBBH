@@ -46,7 +46,7 @@ Hypertext Transfer Protocol Secure (HTTPS) -
   
 HTTPS Flow - 
                
-[ User ] -------->-------[ Browser { http://github.com } ]                                       [ Server ]
+[ User ] -----_------>[ Browser { http://github.com } ]                                          [ Server ]
                                         |                                                             |
                                         |                                                             |
                                         |---------------[ HTTP request to github.com:80]------------->|
