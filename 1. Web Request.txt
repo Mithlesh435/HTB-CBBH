@@ -77,3 +77,23 @@ HTTP Requests and Responses -
  * An HTTP request is made by the client (e.g. cURL/browser), and is processed by the server (e.g. web server). 
  * The requests contain all of the details we require from the server, including the resource (e.g. URL, path, parameters), 
    any request data, headers or options we specify, and many other options we will discuss throughout this module.
+
+HTTP Request - 
+
+
+                                                          [ Path ]
+                         [ HTTP Method ]-----------|          |            |--------------[ HTTP version ]
+                                                   |          |            |
+                                                 |---||---------------||--------|
+                                               |  GET /users/loqin.html HTTP/1.1                              |
+                                               |  Host: inlanefreight.com                                     |
+                                               |  user-agent: Mozilla/S.o lUduntu: Linux x80 64: F1retox/ /8. |
+                                               |  ACCept: text/html, application/xhtml+xml,application/xml    |
+                                               |  Accept-Lanquage: en-Us,en;0=0.3                             |
+                   [ HTTP Headers ]----------- |  ACcept-Encoding:gzip, deflate                               |--------------[ Header Values ]
+                                               |  Content-Type: text/ntml; charset=UTF-8                      |    
+                                               |  Connection: Close                                           |
+                                               |  Cookie: PHPSESSID=(4ggt4jull9obt7aupa5508vbf                | 
+                                               |  Upgrade-Insecure-kequests: 1                                |
+                                               |  Cache-control: max-age=0                                    |
+
