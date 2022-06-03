@@ -69,6 +69,5 @@ HTTPS Flow -
                                         |                                                             |
                                         |<<--------------[ Encrypted HTTP Connection ]-------------->>|
                                      
-        
-                 
-                    
+cURL(tool)for HTTPS - 
+ * cURL should automatically handle all HTTPS communication standards and perform a secure handshake and then encrypt and decrypt data automatically. 
