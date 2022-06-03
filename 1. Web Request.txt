@@ -71,3 +71,9 @@ HTTPS Flow -
                                      
 cURL(tool)for HTTPS - 
  * cURL should automatically handle all HTTPS communication standards and perform a secure handshake and then encrypt and decrypt data automatically. 
+ 
+HTTP Requests and Responses - 
+ * HTTP communications mainly consist of an HTTP request and an HTTP response. 
+ * An HTTP request is made by the client (e.g. cURL/browser), and is processed by the server (e.g. web server). 
+ * The requests contain all of the details we require from the server, including the resource (e.g. URL, path, parameters), 
+   any request data, headers or options we specify, and many other options we will discuss throughout this module.
