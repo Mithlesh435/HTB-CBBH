@@ -100,3 +100,23 @@ HTTP Request -
 HTTP Response - 
  * Once the server processes our request, it sends its response. 
  * The following is an example HTTP response:
+   
+                                              
+
+                                                HTTP/1.1 200 OK
+                                                Date: Mon. 13 Jul 2020 10:46:21 GMT
+                                                Server:
+                                                Apache/2.4,41 (Ubuntu)
+                                                set-look1e: SESSI=44raipthrvIa1gvogar; path=,
+                                                Expires:
+                                                lache-Control: no-store, no-cache, must-revalldate
+                                                Pragma:
+                                                no=cache
+                                                Content-Length: 964
+                                                Connection.
+                                                Close
+                                                Content-Toe: text/html: charset=UTF-8
+                                                Lang="en ><head><meta htto-equlv=
+                                                content= text/nm, charset=ur-o
+                                                <title>Inlane Freights/title:
+                                                <link href="./stv
