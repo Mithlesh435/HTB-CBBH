@@ -99,4 +99,4 @@ HTTP Request -
 
 HTTP Response - 
  * Once the server processes our request, it sends its response. 
- The following is an example HTTP response:
+ * The following is an example HTTP response:
