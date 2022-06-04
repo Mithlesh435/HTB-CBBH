@@ -97,3 +97,6 @@ HTTP Request -
                                                |  Upgrade-Insecure-kequests: 1                                |
                                                |  Cache-control: max-age=0                                    |
 
+HTTP Response - 
+ * Once the server processes our request, it sends its response. 
+ The following is an example HTTP response:
