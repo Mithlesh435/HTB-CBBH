@@ -108,7 +108,7 @@ HTTP Response -
                                               |   Server: Apache/2.4,41 (Ubuntu)
                                               |    set-Cookies: PHPSESSID=44raipthrvIa1gvogar; path=,/
                                               |  Expires: Thu, 19 Nov 1981 08:20:23 GMT
-                                                Cache-Control: no-store, no-cache, must-revalldate
+                                              |  Cache-Control: no-store, no-cache, must-revalldate
                                                 Pragma: no=cache
                                                 Content-Length: 964
                                                 Connection.
