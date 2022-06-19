@@ -110,7 +110,7 @@ HTTP Response -
                                               |  Expires: Thu, 19 Nov 1981 08:20:23 GMT
                                               |  Cache-Control: no-store, no-cache, must-revalldate
                                                 Pragma: no=cache
-                                                Content-Length: 964
+                                              |   Content-Length: 964
                                                 Connection.
                                                 Close
                                                 Content-Toe: text/html: charset=UTF-8
