@@ -113,7 +113,7 @@ HTTP Response -
                                               |   Content-Length: 964
                                                 Connection.
                                                 Close
-                                                Content-Toe: text/html: charset=UTF-8
+                                                 Content-Toe: text/html: charset=UTF-8
                                                 Lang="en ><head><meta htto-equlv=
                                                 content= text/nm, charset=ur-o
                                                 <title>Inlane Freights/title:
